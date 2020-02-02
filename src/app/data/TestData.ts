@@ -59,7 +59,7 @@ export class testData{
     },
     {
       id: 4,
-      title: "Логика(Вся, кроме женской)",
+      title: "Логика(правда или ложь)",
       completed: true,
       //category: testData.categories[]
       priority: testData.priorities[3],
