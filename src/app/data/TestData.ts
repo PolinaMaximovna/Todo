@@ -1,9 +1,8 @@
-
 import {Priority} from "../model/Priority";
 import {Category} from "../model/Category";
 import {Task} from "../model/Task";
 
-export class testData{
+export class TestData {
 
   static categories: Category[] =[
 
@@ -37,7 +36,7 @@ export class testData{
       id: 1,
       title: "Все о Java(Ну или почти все)",
       completed: true,
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
       date: new Date ('2020-02-01'),
 
     },
@@ -46,7 +45,7 @@ export class testData{
       title: "Типы данных",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -54,7 +53,7 @@ export class testData{
       title: "Операторы",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -62,7 +61,7 @@ export class testData{
       title: "Логика(правда или ложь)",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -70,7 +69,7 @@ export class testData{
       title: "ООП",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -78,7 +77,7 @@ export class testData{
       title: "Инкапсуляция",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -86,7 +85,7 @@ export class testData{
       title: "Наследование",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -94,7 +93,7 @@ export class testData{
       title: "Полиморфизм",
       completed: true,
       //category: testData.categories[]
-      priority: testData.priorities[3],
+      priority: TestData.priorities[3],
 
     },
     {
@@ -102,7 +101,7 @@ export class testData{
       title: "Любимые Паттерны",
       completed: false,
       //category: testData.categories[]
-      priority: testData.priorities[0],
+      priority: TestData.priorities[0],
 
     },
     {
@@ -110,7 +109,7 @@ export class testData{
       title: "Списки(и даже чуток про Map)",
       completed: false,
       //category: testData.categories[]
-      priority: testData.priorities[2],
+      priority: TestData.priorities[2],
 
     }
 
