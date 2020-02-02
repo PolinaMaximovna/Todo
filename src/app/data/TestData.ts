@@ -6,7 +6,7 @@ export class TestData {
 
   static categories: Category[] =[
 
-    {id: 1, title:"Введение в Java"},
+    {id: 1, title: "Введение"},
     {id: 2, title:"Типы данных"},
     {id: 1, title:"Операторы"},
     {id: 1, title:"Логика"},
