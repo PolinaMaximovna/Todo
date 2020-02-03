@@ -1,23 +1,21 @@
-import {Priority} from "../model/Priority";
-import {Category} from "../model/Category";
-import {Task} from "../model/Task";
+import {Priority} from '../model/Priority';
+import {Category} from '../model/Category';
+import {Task} from '../model/Task';
 
 export class TestData {
 
   static categories: Category[] =[
 
-    {id: 1, title: "Введение"},
-    {id: 2, title:"Типы данных"},
-    {id: 1, title:"Операторы"},
-    {id: 1, title:"Логика"},
-    {id: 1, title:"ООП"},
-    {id: 1, title:"Инкапсуляция"},
-    {id: 1, title:"Наследование"},
-    {id: 1, title:"Полиморфизм"},
-    {id: 1, title:"Паттерны"},
-    {id: 1, title:"Списки"},
-
-
+    {id: 1, title: 'Введение'},
+    {id: 2, title: 'Типы данных'},
+    {id: 3, title: 'Операторы'},
+    {id: 4, title: 'Логика'},
+    {id: 5, title: 'ООП'},
+    {id: 6, title: 'Инкапсуляция'},
+    {id: 7, title: 'Наследование'},
+    {id: 8, title: 'Полиморфизм'},
+    {id: 9, title: 'Паттерны'},
+    {id: 10, title: 'Списки'},
   ];
 
 
@@ -31,28 +29,27 @@ export class TestData {
 
   //индексация приоритетов и категорий начинается с нуля
 
-  static task: Task[] =[
+  static tasks: Task[] = [
     {
       id: 1,
       title: "Все о Java(Ну или почти все)",
       completed: true,
       priority: TestData.priorities[3],
+      category: TestData.categories[0],
       date: new Date ('2020-02-01'),
-
     },
     {
       id: 2,
       title: "Типы данных",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[0],
       priority: TestData.priorities[3],
-
     },
     {
       id: 3,
       title: "Операторы",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[1],
       priority: TestData.priorities[3],
 
     },
@@ -60,7 +57,7 @@ export class TestData {
       id: 4,
       title: "Логика(правда или ложь)",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[2],
       priority: TestData.priorities[3],
 
     },
@@ -68,7 +65,7 @@ export class TestData {
       id: 5,
       title: "ООП",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[4],
       priority: TestData.priorities[3],
 
     },
@@ -76,7 +73,7 @@ export class TestData {
       id: 6,
       title: "Инкапсуляция",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[5],
       priority: TestData.priorities[3],
 
     },
@@ -84,7 +81,7 @@ export class TestData {
       id: 7,
       title: "Наследование",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[6],
       priority: TestData.priorities[3],
 
     },
@@ -92,7 +89,7 @@ export class TestData {
       id: 8,
       title: "Полиморфизм",
       completed: true,
-      //category: testData.categories[]
+      category: TestData.categories[7],
       priority: TestData.priorities[3],
 
     },
@@ -100,7 +97,7 @@ export class TestData {
       id: 9,
       title: "Любимые Паттерны",
       completed: false,
-      //category: testData.categories[]
+      category: TestData.categories[2],
       priority: TestData.priorities[0],
 
     },
@@ -108,7 +105,7 @@ export class TestData {
       id: 10,
       title: "Списки(и даже чуток про Map)",
       completed: false,
-      //category: testData.categories[]
+      category: TestData.categories[3],
       priority: TestData.priorities[2],
 
     }

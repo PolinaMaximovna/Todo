@@ -16,11 +16,11 @@ export class CategoriesComponent implements OnInit {
   //метод создается автоматически после инициализации компонента
   ngOnInit() {
     this.categories = this.dataHandler.getCategories();
-
-    //console.log(this.categories);
+    console.log(this.categories);
   }
 
   showTasksByCategory(category: Category) {
-    this.dataHandler.getTasksByCategory(category);
+    this.dataHandler.fillTasksByCategory(category);
+    console.log("123");
   }
 }

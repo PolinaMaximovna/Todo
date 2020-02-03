@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {DataHandlerService} from "../../service/data-handler.service";
-import {Task} from "src/app/model/Task";
+import {Task} from 'src/app/model/Task';
 
 @Component({
   selector: 'app-tasks',
@@ -14,7 +14,7 @@ export class TasksComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.tasks = this.dataHandler.getTasks();
+    this.dataHandler.tasksSubject.subscribe(tasks => this.tasks = tasks);
   }
 
 }
