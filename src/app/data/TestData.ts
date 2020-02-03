@@ -32,7 +32,7 @@ export class TestData {
   static tasks: Task[] = [
     {
       id: 1,
-      title: "Все о Java(Ну или почти все)",
+      title: "Все о Java(Чай, островов и мотоцикл)",
       completed: true,
       priority: TestData.priorities[3],
       category: TestData.categories[0],
@@ -40,7 +40,7 @@ export class TestData {
     },
     {
       id: 2,
-      title: "Типы данных",
+      title: "Типы данных(всякий примитивчик)",
       completed: true,
       category: TestData.categories[0],
       priority: TestData.priorities[3],
@@ -63,7 +63,7 @@ export class TestData {
     },
     {
       id: 5,
-      title: "ООП",
+      title: "ООП(если знаешь считай уже developer)",
       completed: true,
       category: TestData.categories[4],
       priority: TestData.priorities[3],
@@ -97,7 +97,7 @@ export class TestData {
       id: 9,
       title: "Любимые Паттерны",
       completed: false,
-      category: TestData.categories[2],
+      category: TestData.categories[8],
       priority: TestData.priorities[0],
 
     },
@@ -105,7 +105,7 @@ export class TestData {
       id: 10,
       title: "Списки(и даже чуток про Map)",
       completed: false,
-      category: TestData.categories[3],
+      category: TestData.categories[9],
       priority: TestData.priorities[2],
 
     }
