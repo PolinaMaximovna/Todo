@@ -76,6 +76,13 @@ export class TestData {
       category: TestData.categories[4],
       priority: TestData.priorities[3],
 
+    }, {
+      id: 25,
+      title: "Инкапсуляция",
+      completed: true,
+      category: TestData.categories[5],
+      priority: TestData.priorities[3],
+
     },
     {
       id: 7,
