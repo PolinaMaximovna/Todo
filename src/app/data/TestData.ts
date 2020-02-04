@@ -42,14 +42,14 @@ export class TestData {
       id: 2,
       title: "Типы данных(всякий примитивчик)",
       completed: true,
-      category: TestData.categories[0],
+      category: TestData.categories[1],
       priority: TestData.priorities[3],
     },
     {
       id: 3,
       title: "Операторы",
       completed: true,
-      category: TestData.categories[1],
+      category: TestData.categories[2],
       priority: TestData.priorities[3],
 
     },
@@ -57,7 +57,7 @@ export class TestData {
       id: 4,
       title: "Логика(правда или ложь)",
       completed: true,
-      category: TestData.categories[2],
+      category: TestData.categories[3],
       priority: TestData.priorities[3],
 
     },
@@ -73,7 +73,7 @@ export class TestData {
       id: 6,
       title: "Инкапсуляция",
       completed: true,
-      category: TestData.categories[5],
+      category: TestData.categories[4],
       priority: TestData.priorities[3],
 
     },
@@ -81,7 +81,7 @@ export class TestData {
       id: 7,
       title: "Наследование",
       completed: true,
-      category: TestData.categories[6],
+      category: TestData.categories[4],
       priority: TestData.priorities[3],
 
     },
@@ -89,7 +89,7 @@ export class TestData {
       id: 8,
       title: "Полиморфизм",
       completed: true,
-      category: TestData.categories[7],
+      category: TestData.categories[4],
       priority: TestData.priorities[3],
 
     },
