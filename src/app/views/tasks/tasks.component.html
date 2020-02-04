@@ -10,17 +10,18 @@
       <th>Название</th>
       <th>Категория</th>
       <th>Приоритет</th>
-      <th>Статус</th>
       <th>Дата</th>
+      <th>Статус</th>
+
       </thead>
       <tbody>
-      <tr *ngFor=" let task of tasks">
-        <td>{{task.id}}</td>
+      <tr *ngFor=" let task of tasks; let i=index">
+        <td>{{i + 1}}</td>
         <td>{{task.title}}</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>{{task.category != null ? task.category.title : "Without categories"}}</td>
+        <td>{{task.priority != null ? task.priority.title : "Without priorities"}}</td>
+        <td>{{task.date != null ? (task.date | date: 'medium') : "Without data"}}</td>
+        <td>{{task.completed}}</td>
       </tr>
 
       </tbody>
