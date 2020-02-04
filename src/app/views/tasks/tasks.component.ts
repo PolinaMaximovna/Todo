@@ -17,4 +17,8 @@ export class TasksComponent implements OnInit {
     this.dataHandler.tasksSubject.subscribe(tasks => this.tasks = tasks);
   }
 
+  //showTasksByCategory(category: Category){
+  //this.dataHandler.fillTasksByCategory(category);
+  // }
+
 }
