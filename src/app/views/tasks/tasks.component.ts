@@ -21,4 +21,7 @@ export class TasksComponent implements OnInit {
   //this.dataHandler.fillTasksByCategory(category);
   // }
 
+  toggleTaskCompleted(task: Task) {
+    task.completed = !task.completed;
+  }
 }
